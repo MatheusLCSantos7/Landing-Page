@@ -4,7 +4,7 @@ body
     background-size: cover;
     font: normal 15pt arial;
     font-family: 'Montserrat',sans-serif;
-    background:linear-gradient(0.25turn, #51a3c7, #e4ffcf, #8dee8d9f);
+    background:linear-gradient(0.25turn, #68f5ff, #018372, #003e41d8);
 }
 .eu
 {
@@ -92,9 +92,8 @@ nav a:hover
 .painel-glass
 {   
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin: 20px;
     padding: 20px;
     width: 50vw;
@@ -106,38 +105,24 @@ nav a:hover
     left: 0;
     border: solid 1px red;
 }
-.itens-form a
-{
+
+.painel-glass a 
+{ 
+    width: calc(50%-30px);
+    margin-bottom: 20px;
+    min-height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255,255,255,0.3);
     text-transform: uppercase;
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+    padding: 10px;
 }
-.itens-calc a
-{
-    text-transform: uppercase;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-}
-.itens:hover
-{
-    box-shadow: 4px 4px 10px #00ffdd;
-
-}
-.imitens:hover
-{
-    transition: 1s all;
-    transform: rotate(360deg) scale(1.1);
-}
-.imitens:not( :hover )
-{
-    transition: 0.5s all;
-    transform: rotate(-360deg) scale(1.0);
-}
-
 footer
 {
     text-align: center;
