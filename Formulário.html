@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário LCS</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Formstyle.css">
+</head>
+<body>
+    <header>
+        <h1>Seja Bem Vindo</h1>
+        <h2>Para que serve um formulário e qual sua função?</h2>
+        <p id="p1">Um formulário pode ser ultilizado para varias funções,sendo sua marioria,formulários HTML são um dos principais pontos de interação entre um usuário e um web site ou aplicativo.
+            <br>
+           Eles permitem que os usuários enviem dados para o web site. 
+           Na maior parte do tempo, os dados são enviados para o servidor da web, mas a página da web também pode interceptar para usá-los por conta própria.</p>
+    </header>
+    
+    <main>
+        <form action="">
+            <label for="nomeesobrenome">Nome e sobrenome </label  >
+            <input  type="text" name="nome" id="nomeesobrenome" placeholder="Nome e Sobrenome"  class="input-padrao" required>
+
+            <label for="email">Email </label>
+            <input type="email" name="email" id="email" placeholder="E M A I L" class="input-padrao" required>
+
+            <label for="tel">Telefone </label>
+            <input type="tel" name="tel" id="tel" placeholder="(**)****-****" class="input-padrao" required>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="txt" id="mensagem" cols="70" rows="10" class="input-padrao" required></textarea >
+            
+            <fieldset>
+
+                <legend>Como prefere nosso contato?</legend>
+                
+                <label for="radio-email"><input type="radio" name="contato" id="radio-email" value="Email"> email </label>
+                
+                <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone" value="Telefone"> Telefone</label>
+                
+                <label for="radio-wpp"><input type="radio" name="contato" id="radio-wpp" value="Whatsapp" checked> Whatsapp</label>
+                
+            </dfieldset>
+            
+            <fieldset>
+                <legend>Qual horario prefere ser atendido?</legend>
+                <select name="" id="">
+
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+
+                </select>
+            </fieldset>
+
+            <label class="checkbox" for=""><input type="checkbox" name="" id="" checked > Gostaria de receber nossas novidades por email? </label>
+
+            <input class="enviar" type="submit" value="Enviar Formulário">
+        </form>
+        <table>
+
+                <!--Tabela com 4 linhas e com 2 célululas-->
+            
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+            <tbody>   
+                <tr>
+                    <td>Segunda</td>
+                    <td>8h > 20h</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>8h > 20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>8h > 20h</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+
+    <script src="formjs.js"  ></script>
+</body>
+</html>
