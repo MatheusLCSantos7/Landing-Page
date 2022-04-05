@@ -1,0 +1,91 @@
+body 
+{
+    background-color: rgb(138, 145, 247);
+    font: normal 15pt arial;
+    }
+
+header 
+{  
+    padding: 20px auto;
+    background:white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;   
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.473);
+    text-align: center;
+ }
+
+
+footer 
+{
+    color: white;
+    text-align: center;
+}
+main
+{
+    border: solid 2px red;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.boton
+{
+    background-color: white;
+    width: 40px;
+    height:40px;
+    margin: 3px;
+    padding: 3px ;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    text-align: center;
+    line-height: 34px;
+    margin: 4px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    transform: 1s backgroud ;
+}
+.boton:hover{
+    transition: 1.4s;
+    background-color: rgb(184, 189, 253);
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+.pad
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.res
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px auto;
+    background:white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;   
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.473);
+    text-align: center;
+}
+#igual
+{
+    background-color: white;
+    width: 85px;
+    height:40px;
+    margin: 3px;
+    padding: 3px ;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    text-align: center;
+    line-height: 34px;
+    margin: 4px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+#flista
+{
+    padding: 20px 20px 20px 20px;
+}
