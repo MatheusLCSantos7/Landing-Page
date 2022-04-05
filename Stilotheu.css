@@ -108,7 +108,7 @@ nav a:hover
 
 .painel-glass a 
 { 
-    width: calc(50%-30px);
+    width: calc(50%-50px);
     margin-bottom: 20px;
     min-height: 200px;
     border-radius: 10px;
@@ -122,6 +122,7 @@ nav a:hover
     font-size: 22px;
     text-decoration: none;
     padding: 10px;
+    transition: 1s background ;
 }
 footer
 {
