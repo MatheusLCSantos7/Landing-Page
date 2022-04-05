@@ -1,0 +1,117 @@
+header
+{
+    background-color: #CCCCCC;
+    padding: 20px 0;
+}
+
+.caixa
+{
+    position: relative;
+    width: 940px; 
+    margin: 0 auto auto;
+}
+
+nav li 
+{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a 
+{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover 
+{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+nav 
+{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+.produtos
+{
+    
+    width: 940px;
+    margin:  0 auto;
+    padding: 50px 0;
+}
+
+.produtos li
+{
+    
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;    
+    border-color: black;
+    border-width: 2px;    /* assim q se estilisa a borda*/
+    border-style: solid; /*3 opções de estilo =dashed,dotted,*/
+    /* mas eu também posso colocar assim simplificado = border: 2px solid black; */
+    border-radius: 10px; /*arredondando as bordas*/
+}
+
+.produtos li:hover
+{
+    box-shadow: 4px 4px 10px #fffb00;
+    backdrop-filter: blur(1px);
+    border-color: #c78c19;
+}
+
+.produtos li:hover h2 
+{
+    font-size: 35px;
+}
+.produtos li:active
+{
+    box-shadow: 4px 4px 10px #00ffb3;
+    backdrop-filter: blur(1px);
+    border-color: #00ff22;
+}
+
+.produtos h2 
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.dc
+{
+    font-size: 18px;
+}
+
+.pp
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+footer
+{
+    text-align: center;
+    background-color: #CCCCCC;
+    /* como colocar img por url = background: url("logobarber.png"); */
+
+}
+.cr {
+
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: black;
+    border: 10px;
+    
+}
